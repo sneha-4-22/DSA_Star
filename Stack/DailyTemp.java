@@ -2,8 +2,6 @@ package Stack;
 
 import java.util.Stack;
 
-import javafx.util.Pair;
-
 public class DailyTemp {
     class Pair{
         int temp;
