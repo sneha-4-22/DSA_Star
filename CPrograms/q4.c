@@ -2,10 +2,8 @@
 
 int main() {
     char ch;
-
     printf("Enter a character: ");
     scanf(" %c", &ch);
-
     switch (ch) {
         case 'a':
         case 'e':
@@ -22,6 +20,5 @@ int main() {
         default:
             printf("%c is not a vowel.\n", ch);
     }
-
     return 0;
 }
