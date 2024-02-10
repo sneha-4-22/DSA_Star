@@ -1,3 +1,5 @@
+package ARRAYS;
+import java.util.*;
 class Solution {
     private boolean helper(String s) {
         Set<Character> set = new HashSet<>();

@@ -1,3 +1,5 @@
+package ARRAYS;
+import java.util.*;
 class Solution {
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> l1=new ArrayList<>();
