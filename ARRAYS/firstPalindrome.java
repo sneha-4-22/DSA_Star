@@ -1,3 +1,6 @@
+package ARRAYS;
+import java.util.*;
+
 class firstPalindrome {
     public String Palindrome(String[] words) {
         for(String str:words){
