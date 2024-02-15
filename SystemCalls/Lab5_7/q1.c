@@ -1,10 +1,12 @@
 #include <stdio.h>
- struct Process {
+struct Process {
     char name;
     int arrival_time;
     int burst_time;
-} Process;
-void FCFS(Process processes[], int n) {
+};
+void FCFS(struct Process processes[], int n);
+void SJF(struct Process processes[], int n);
+void FCFS(struct Process processes[], int n) {
     int waiting_time = 0;
     printf("FCFS Scheduling:\n");
     printf("Process\t Waiting Time\n");
@@ -14,11 +16,11 @@ void FCFS(Process processes[], int n) {
     }
     printf("\n");
 }
-void SJF(Process processes[], int n) {
+void SJF(struct Process processes[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (processes[j].burst_time > processes[j + 1].burst_time) {
-                Process temp = processes[j];
+                struct Process temp = processes[j];
                 processes[j] = processes[j + 1];
                 processes[j + 1] = temp;
             }
@@ -34,13 +36,12 @@ void SJF(Process processes[], int n) {
     printf("\n");
 }
 int main() {
-    Process processes[] = {
+    struct Process processes[] = {
         {'1', 0, 8},
         {'2', 1, 4},
         {'3', 2, 9},
         {'4', 3, 5}
     };
-
     int n = sizeof(processes) / sizeof(processes[0]);
     FCFS(processes, n);
     SJF(processes, n);
