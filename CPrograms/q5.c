@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int choice;
     float num1, num2, num3, total, average;
@@ -10,7 +9,6 @@ int main() {
     printf("5. Exit\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
-
     switch (choice) {
         case 1:
             printf("Enter three numbers: ");
