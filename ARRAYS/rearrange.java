@@ -1,3 +1,5 @@
+package ARRAYS;
+import java.util.*;
 class rearrange {
     public int[] rearrangeArray(int[] nums) {
         ArrayList<Integer> pos = new ArrayList<>();
