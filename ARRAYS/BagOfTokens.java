@@ -1,3 +1,5 @@
+package ARRAYS;
+import java.util.*;
 class BagOfTokens {
     public int bagOfTokensScore(int[] tokens, int power) {
         Arrays.sort(tokens);
