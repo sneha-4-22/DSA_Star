@@ -1,5 +1,5 @@
 package ARRAYS;
-class Solution {
+class pivot {
     public int pivotInteger(int n) {
         int sum= n*(n+1)/2;
         double a= Math.sqrt(sum);
