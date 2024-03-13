@@ -1,4 +1,5 @@
 package ARRAYS;
+import java.util.com;
 class pivot {
     public int pivotInteger(int n) {
         int sum= n*(n+1)/2;
