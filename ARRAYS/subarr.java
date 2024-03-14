@@ -1,5 +1,5 @@
 package ARRAYS;
-
+improt java.util.*;
 class subarr {
     public int numSubarraysWithSum(int[] nums, int goal) {
         return atMost(nums, goal) - atMost(nums, goal - 1);
