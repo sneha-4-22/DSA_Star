@@ -1,4 +1,4 @@
-package Arrays;
+package ARRAYS;
 import java.util.*;
 
 class findLeastNum {
