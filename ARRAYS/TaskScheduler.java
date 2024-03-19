@@ -1,3 +1,5 @@
+import java.util.*;
+
 class TaskScheduler {
     public int leastInterval(char[] tasks, int n) {
         int[] freq=new int[26];
