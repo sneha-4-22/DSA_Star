@@ -1,4 +1,4 @@
-class Solution {
+class TaskScheduler {
     public int leastInterval(char[] tasks, int n) {
         int[] freq=new int[26];
         for(char c: tasks){
