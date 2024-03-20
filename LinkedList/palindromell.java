@@ -1,3 +1,5 @@
+package LinkedList;
+
 class palindromell{
   public boolean ispalindrome(ListNode head){
     ListNode slow= new ListNode(-1);
