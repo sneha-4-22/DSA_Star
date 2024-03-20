@@ -1,6 +1,6 @@
 class palindromell{
   public boolean ispalindrome(ListNode head){
-    ListNode slow=ListNode(-1);
+    ListNode slow= new ListNode(-1);
     slow.next=head;
     ListNode fast=head;
     while(fast!=null&&fast.next!=null){
